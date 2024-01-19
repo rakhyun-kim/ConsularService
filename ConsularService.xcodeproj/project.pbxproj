@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		505472B42B1823B20002D788 /* ConsularServiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505472B32B1823B20002D788 /* ConsularServiceApp.swift */; };
-		505472B62B1823B20002D788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505472B52B1823B20002D788 /* ContentView.swift */; };
 		505472B82B1823B30002D788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505472B72B1823B30002D788 /* Assets.xcassets */; };
 		505472BB2B1823B30002D788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505472BA2B1823B30002D788 /* Preview Assets.xcassets */; };
+		505472C42B182CAF0002D788 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505472C32B182CAF0002D788 /* MainView.swift */; };
+		505472C62B18326A0002D788 /* Nationality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505472C52B18326A0002D788 /* Nationality.swift */; };
+		5099366C2B1ACF2C00CF3E12 /* VISA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5099366B2B1ACF2C00CF3E12 /* VISA.swift */; };
+		5099366F2B1ACF3D00CF3E12 /* Passport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5099366E2B1ACF3D00CF3E12 /* Passport.swift */; };
+		509936712B1ACF4900CF3E12 /* Military.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509936702B1ACF4900CF3E12 /* Military.swift */; };
+		509936732B1ACF5E00CF3E12 /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509936722B1ACF5E00CF3E12 /* Family.swift */; };
+		509936752B1ACF6300CF3E12 /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509936742B1ACF6300CF3E12 /* Certificate.swift */; };
+		509936772B1ACFAD00CF3E12 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509936762B1ACFAD00CF3E12 /* FAQ.swift */; };
+		509936792B1AD2B900CF3E12 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509936782B1AD2B900CF3E12 /* Reservation.swift */; };
+		50A880242B5AEAC2001CA289 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A880232B5AEAC2001CA289 /* NoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		505472B02B1823B20002D788 /* ConsularService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsularService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505472B32B1823B20002D788 /* ConsularServiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsularServiceApp.swift; sourceTree = "<group>"; };
-		505472B52B1823B20002D788 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		505472B72B1823B30002D788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		505472BA2B1823B30002D788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		505472C32B182CAF0002D788 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		505472C52B18326A0002D788 /* Nationality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nationality.swift; sourceTree = "<group>"; };
+		5099366B2B1ACF2C00CF3E12 /* VISA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VISA.swift; sourceTree = "<group>"; };
+		5099366E2B1ACF3D00CF3E12 /* Passport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passport.swift; sourceTree = "<group>"; };
+		509936702B1ACF4900CF3E12 /* Military.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Military.swift; sourceTree = "<group>"; };
+		509936722B1ACF5E00CF3E12 /* Family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
+		509936742B1ACF6300CF3E12 /* Certificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certificate.swift; sourceTree = "<group>"; };
+		509936762B1ACFAD00CF3E12 /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
+		509936782B1AD2B900CF3E12 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		50A880232B5AEAC2001CA289 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				505472B32B1823B20002D788 /* ConsularServiceApp.swift */,
-				505472B52B1823B20002D788 /* ContentView.swift */,
+				505472C32B182CAF0002D788 /* MainView.swift */,
+				5099366D2B1ACF3300CF3E12 /* Views */,
 				505472B72B1823B30002D788 /* Assets.xcassets */,
 				505472B92B1823B30002D788 /* Preview Content */,
 			);
@@ -65,6 +84,22 @@
 				505472BA2B1823B30002D788 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5099366D2B1ACF3300CF3E12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				505472C52B18326A0002D788 /* Nationality.swift */,
+				5099366E2B1ACF3D00CF3E12 /* Passport.swift */,
+				509936702B1ACF4900CF3E12 /* Military.swift */,
+				5099366B2B1ACF2C00CF3E12 /* VISA.swift */,
+				509936722B1ACF5E00CF3E12 /* Family.swift */,
+				509936742B1ACF6300CF3E12 /* Certificate.swift */,
+				509936762B1ACFAD00CF3E12 /* FAQ.swift */,
+				509936782B1AD2B900CF3E12 /* Reservation.swift */,
+				50A880232B5AEAC2001CA289 /* NoteView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +172,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				505472B62B1823B20002D788 /* ContentView.swift in Sources */,
+				505472C62B18326A0002D788 /* Nationality.swift in Sources */,
+				509936732B1ACF5E00CF3E12 /* Family.swift in Sources */,
+				509936792B1AD2B900CF3E12 /* Reservation.swift in Sources */,
+				5099366C2B1ACF2C00CF3E12 /* VISA.swift in Sources */,
+				50A880242B5AEAC2001CA289 /* NoteView.swift in Sources */,
+				509936752B1ACF6300CF3E12 /* Certificate.swift in Sources */,
+				509936712B1ACF4900CF3E12 /* Military.swift in Sources */,
+				5099366F2B1ACF3D00CF3E12 /* Passport.swift in Sources */,
+				505472C42B182CAF0002D788 /* MainView.swift in Sources */,
+				509936772B1ACFAD00CF3E12 /* FAQ.swift in Sources */,
 				505472B42B1823B20002D788 /* ConsularServiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

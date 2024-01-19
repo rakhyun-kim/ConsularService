@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct NoteView: View {
+    @AppStorage("Notes") private var notes = "Please write down : "
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            TextEditor(text: $notes)
+                .navigationTitle("Notes")
+                .padding(/*@START_MENU_TOKEN@*/EdgeInsets()/*@END_MENU_TOKEN@*/)
+        }
     }
 }
 
